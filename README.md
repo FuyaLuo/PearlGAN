@@ -16,7 +16,7 @@
 * CUDA 10.0.130, CuDNN 7.3, and Ubuntu 16.04.
 
 ## Data Preparation 
-Download [FLIR](https://www.flir.co.uk/oem/adas/adas-dataset-form/) and [KAIST](https://soonminhwang.github.io/rgbt-ped-detection/data/). First, the corresponding training set and test set images are sampled according to the txt files in the `./img_list/` folder. Then, all images are first resized to 500 \times 400, and then crop centrally to obtain images with a resolution of 360 \time s288. Finally, place all images into the corresponding dataset folders. Domain A and domain B correspond to the daytime visible image and the nighttime TIR image, respectively. As an example, the corresponding folder structure for the FLIR dataset is:
+Download [FLIR](https://www.flir.co.uk/oem/adas/adas-dataset-form/) and [KAIST](https://soonminhwang.github.io/rgbt-ped-detection/data/). First, the corresponding training set and test set images are sampled according to the txt files in the `./img_list/` folder. Then, all images are first resized to 500 $\times$ 400, and then crop centrally to obtain images with a resolution of 360 $\times$ 288. Finally, place all images into the corresponding dataset folders. Domain A and domain B correspond to the daytime visible image and the nighttime TIR image, respectively. As an example, the corresponding folder structure for the FLIR dataset is:
  ```
 mkdir FLIR_datasets
 # The directory structure should be this:
