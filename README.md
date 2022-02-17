@@ -104,8 +104,9 @@ We annotated a subset of [FLIR](https://drive.google.com/file/d/1IeyNBkWQQY9-AaZ
 ## Evaluation
 <details>
   <summary>
-    <b>1) Semantic segmentation</b>
+    <b>1) Semantic segmenation</b>
   </summary>
+  
    Download the code for the domain adaptation semantic segmentation model [MRNet](https://github.com/layumi/Seg-Uncertainty) and then follow the instructions to install it. Next, download our pre-trained models and associated files on [FLIR](https://drive.google.com/file/d/1ZKGHJgstg9KL9wMFhM1z4zZJM6J3tjS5/view?usp=sharing) and [KAIST](https://drive.google.com/file/d/1jpNgF--yHoyK2IbVEB5LRU9F72dVuceB/view?usp=sharing) datasets using Cityscape datasets. Once the unzip is complete, place all files in the `/Seg-Uncertainty-master/` folder. Note that the files `FLIR_dataset.py` and `KAIST_dataset.py` should be placed in the directory `/Seg-Uncertainty-master/dataset/`. For the evaluation on FLIR dataset, run the command
    ```bash
    python evaluate_FLIR_class9.py --data_dir /Your_FLIR_Results_Path/
@@ -121,6 +122,7 @@ We annotated a subset of [FLIR](https://drive.google.com/file/d/1IeyNBkWQQY9-AaZ
   <summary>
     <b>2) Object detection</b>
   </summary>
+  
   Download the code for [YOLOv4](https://github.com/WongKinYiu/PyTorch_YOLOv4) and its pre-trained model on the MS COCO dataset, then follow the instructions to install it. Next, download the YOLOv4 detection txt file we transformed from the [FLIR](https://drive.google.com/file/d/1BCWFAylBWfLXkc27tdZ4r20hbkmNyEtg/view?usp=sharing) and [KAIST](https://drive.google.com/file/d/15EODc69Ivm-c4wsscBr9UrwnmY0YV3Eu/view?usp=sharing) datasets. Once the unzip is complete, place all files in the `/PyTorch_YOLOv4-master/` folder. Note that the files `FLIR.yaml`, `FLIR_imglist.txt`, `KAIST.yaml` and `KAIST_imglist.txt` should be placed in the directory `/PyTorch_YOLOv4-master/data/`. And the file `yolov4.weights` should be placed in the directory `/PyTorch_YOLOv4-master/weights/`. Then, the translation results of FLIR and KAIST should be placed inside the `/PyTorch_YOLOv4-master/FLIR_datasets/images/` and `/PyTorch_YOLOv4-master/KAIST_datasets/images/` directories respectively. For the evaluation on FLIR dataset, run the command
   ```bash
   python test.py --img 640 --conf 0.001 --batch 32 --device 0 --data FLIR.yaml --cfg cfg/yolov4.cfg --weights weights/yolov4.weights --verbose
@@ -137,6 +139,7 @@ We annotated a subset of [FLIR](https://drive.google.com/file/d/1IeyNBkWQQY9-AaZ
   <summary>
     <b>3) Edge consistency</b>
   </summary>
+  
    Change the values of the variables `night_IR_folder`, 'file_cell_list{1, 2}', `des_txt_path` in file `./APCE_eval/batch_eval_CE_FLIR_single.m` to `your NTIR directory`, `your translation result directory` and `your txt result storage directory` respectively. Next, run file `batch_eval_CE_FLIR_single.m` to evaluate the APCE of the results on the FLIR dataset. Similar to evaluate the results on the KAIST dataset by running file `batch_eval_CE_KAIST_single.m`. Be careful to keep the file name of the resulting image the same as the file name of the original IR image.
 
     
