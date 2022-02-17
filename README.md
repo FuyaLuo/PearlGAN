@@ -70,16 +70,17 @@ python test.py --phase test --serial_test --name KAIST_NTIR2DC --dataroot ./KAIS
 </details>
 
 ## Training
+
 To reproduce the performance, we recommend that users try multiple training sessions.
 <details>
   <summary>
     <b>1) FLIR</b>
   </summary>
-   Place the corresponding images in each subfolder of the folder `./FLIR_datasets/`. Then run the command
-   ```bash
-   bash ./train_FLIR.sh
-   ```
-   
+  
+  Place the corresponding images in each subfolder of the folder `./FLIR_datasets/`. Then run the command
+  ```bash
+  bash ./train_FLIR.sh
+  ```
 </details>
 
 
@@ -87,6 +88,7 @@ To reproduce the performance, we recommend that users try multiple training sess
   <summary>
     <b>2) KAIST</b>
   </summary>
+  
   Place the corresponding images in each subfolder of the folder `./KAIST_datasets/`. Then run the command
    ```bash
    bash ./train_KAIST.sh
