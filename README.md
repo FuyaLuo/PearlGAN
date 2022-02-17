@@ -149,6 +149,9 @@ We annotated a subset of [FLIR](https://drive.google.com/file/d/1IeyNBkWQQY9-AaZ
 
 ![Edge Consistency Comparison](docs/KAIST_APCE_example.png)
 
+## Downloading files using Baidu Cloud Drive
+[Baidu cloud link](https://pan.baidu.com/s/1ojaqDf6dV_XYrsOqi1NNAg), extraction code: ir2d.
+
 ## Citation
 If you like our work and use the code or models for your research, please cite our work as follows.
 ```
