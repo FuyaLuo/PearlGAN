@@ -140,7 +140,7 @@ We annotated a subset of [FLIR](https://drive.google.com/file/d/1IeyNBkWQQY9-AaZ
     <b>3) Edge consistency</b>
   </summary>
   
-   Change the values of the variables `night_IR_folder`, 'file_cell_list{1, 2}', `des_txt_path` in file `./APCE_eval/batch_eval_CE_FLIR_single.m` to `your NTIR directory`, `your translation result directory` and `your txt result storage directory` respectively. Next, run file `batch_eval_CE_FLIR_single.m` to evaluate the APCE of the results on the FLIR dataset. Similar to evaluate the results on the KAIST dataset by running file `batch_eval_CE_KAIST_single.m`. Be careful to keep the file name of the resulting image the same as the file name of the original IR image.
+   Change the values of the variables `night_IR_folder`, `file_cell_list{1, 2}`, `des_txt_path` in file `./APCE_eval/batch_eval_CE_FLIR_single.m` to `your NTIR directory`, `your translation result directory` and `your txt result storage directory` respectively. Next, run file `batch_eval_CE_FLIR_single.m` to evaluate the APCE of the results on the FLIR dataset. Similar to evaluate the results on the KAIST dataset by running file `batch_eval_CE_KAIST_single.m`. Be careful to keep the file name of the resulting image the same as the file name of the original IR image.
 
     
 </details>
