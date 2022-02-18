@@ -1,5 +1,5 @@
-# PearlGAN
-Thermal Infrared Image Colorization on Nighttime Driving Scenes with Top-down Guided Attention (official Pytorch implementation)
+# Thermal Infrared Image Colorization on Nighttime Driving Scenes with Top-down Guided Attention
+Pytorch implementation of the paper "Thermal Infrared Image Colorization on Nighttime Driving Scenes with Top-down Guided Attention".
 
 ![Overall architecture](docs/Model.png)
 
