@@ -101,7 +101,7 @@ To reproduce the performance, we recommend that users try multiple training sess
 ## Labeled Segmentation Masks
 We annotated a subset of [FLIR](https://drive.google.com/file/d/1IeyNBkWQQY9-AaZebalJumNtPt5wv9zR/view?usp=sharing) and [KAIST](https://drive.google.com/file/d/1CQz6yZjxdVarHMcWFdxirTLpTdNu7_da/view?usp=sharing) datasets with pixel-level category labels, which may catalyze research on the colorization and semantic segmentation of nighttime TIR images. The indexing of categories is consistent with the annotation of the Cityscape dataset.
 
-![Labeled Masks](https://github.com/FuyaLuo/PearlGAN/tree/main/docs/Masks.png)
+![Labeled Masks](https://github.com/FuyaLuo/PearlGAN/blob/main/docs/Masks.PNG)
 
 ## Evaluation
 <details>
