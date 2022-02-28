@@ -1,7 +1,7 @@
 # Thermal Infrared Image Colorization on Nighttime Driving Scenes with Top-down Guided Attention
 Pytorch implementation of the paper "Thermal Infrared Image Colorization on Nighttime Driving Scenes with Top-down Guided Attention".
 
-![Overall architecture](docs/Model.png)
+![Overall architecture](https://github.com/FuyaLuo/PearlGAN/docs/Model.png)
 
 ### [Paper](https://ieeexplore.ieee.org/abstract/document/9703249)
 
@@ -101,7 +101,7 @@ To reproduce the performance, we recommend that users try multiple training sess
 ## Labeled Segmentation Masks
 We annotated a subset of [FLIR](https://drive.google.com/file/d/1IeyNBkWQQY9-AaZebalJumNtPt5wv9zR/view?usp=sharing) and [KAIST](https://drive.google.com/file/d/1CQz6yZjxdVarHMcWFdxirTLpTdNu7_da/view?usp=sharing) datasets with pixel-level category labels, which may catalyze research on the colorization and semantic segmentation of nighttime TIR images. The indexing of categories is consistent with the annotation of the Cityscape dataset.
 
-![Labeled Masks](docs/Masks.png)
+![Labeled Masks](https://github.com/FuyaLuo/PearlGAN/docs/Masks.png)
 
 ## Evaluation
 <details>
@@ -147,7 +147,7 @@ We annotated a subset of [FLIR](https://drive.google.com/file/d/1IeyNBkWQQY9-AaZ
     
 </details>
 
-![Edge Consistency Comparison](docs/KAIST_APCE_example.png)
+![Edge Consistency Comparison](https://github.com/FuyaLuo/PearlGAN/docs/KAIST_APCE_example.png)
 
 ## Downloading files using Baidu Cloud Drive
 If the above Google Drive link is not available, you can try to download the relevant code and files through the [Baidu cloud link](https://pan.baidu.com/s/1ojaqDf6dV_XYrsOqi1NNAg), extraction code: ir2d.
