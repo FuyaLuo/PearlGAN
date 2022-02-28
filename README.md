@@ -1,7 +1,7 @@
 # Thermal Infrared Image Colorization on Nighttime Driving Scenes with Top-down Guided Attention
 Pytorch implementation of the paper "Thermal Infrared Image Colorization on Nighttime Driving Scenes with Top-down Guided Attention".
 
-![tease](https://github.com/FuyaLuo/PearlGAN/docs/Model.png)
+![tease](https://github.com/FuyaLuo/PearlGAN/blob/main/docs/Model.png)
 
 ### [Paper](https://ieeexplore.ieee.org/abstract/document/9703249)
 
