@@ -147,7 +147,7 @@ We annotated a subset of [FLIR](https://drive.google.com/file/d/1IeyNBkWQQY9-AaZ
     
 </details>
 
-![Edge Consistency Comparison](https://github.com/FuyaLuo/PearlGAN/tree/main/docs/KAIST_APCE_example.png)
+![Edge Consistency Comparison](https://github.com/FuyaLuo/PearlGAN/blob/main/docs/KAIST_APCE_example.PNG)
 
 ## Downloading files using Baidu Cloud Drive
 If the above Google Drive link is not available, you can try to download the relevant code and files through the [Baidu cloud link](https://pan.baidu.com/s/1ojaqDf6dV_XYrsOqi1NNAg), extraction code: ir2d.
