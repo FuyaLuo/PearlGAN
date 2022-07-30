@@ -170,5 +170,5 @@ The codes and the pretrained model in this repository are under the BSD 2-Clause
 
 ## Acknowledgments
 This code is heavily borrowed from [ToDayGAN](https://github.com/AAnoosheh/ToDayGAN).  
-Spectral Normalization code is borrowed from [BigGAN-PyTorch](https://github.com/ajbrock/BigGAN-PyTorch/blob/master/layers.py).
+Spectral Normalization code is borrowed from [BigGAN-PyTorch](https://github.com/ajbrock/BigGAN-PyTorch/blob/master/layers.py).  
 We thank [Lucky0775](https://github.com/Lucky0775) for his questions about the object detection results.
