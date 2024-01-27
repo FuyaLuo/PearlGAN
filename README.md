@@ -18,7 +18,7 @@ Pytorch implementation of the paper "Thermal Infrared Image Colorization on Nigh
 * CUDA 10.0.130, CuDNN 7.3, and Ubuntu 16.04.
 
 ## Data Preparation 
-Download [FLIR](https://www.flir.co.uk/oem/adas/adas-dataset-form/) and [KAIST](https://soonminhwang.github.io/rgbt-ped-detection/data/). First, the corresponding training set and test set images are sampled according to the txt files in the `./img_list/` folder. Then, all images are first resized to 500x400, and then crop centrally to obtain images with a resolution of 360x288. Finally, place all images into the corresponding dataset folders. Domain A and domain B correspond to the daytime visible image and the nighttime TIR image, respectively. As an example, the corresponding folder structure for the FLIR dataset is:
+Download [FLIR](https://www.flir.co.uk/oem/adas/adas-dataset-form/) and [KAIST](https://soonminhwang.github.io/rgbt-ped-detection/data/). First, the corresponding training set and test set images are sampled according to the txt files in the `./img_list/` folder. Then, all images are first resized to 500x400, and then crop centrally to obtain images with a resolution of 360x288. Note that due to negligent checking by the authors, the test set images for the KAIST dataset only need to be center cropped to 360x288 without a resize step. Finally, place all images into the corresponding dataset folders. Domain A and domain B correspond to the daytime visible image and the nighttime TIR image, respectively. As an example, the corresponding folder structure for the FLIR dataset is:
  ```
 mkdir FLIR_datasets
 # The directory structure should be this:
@@ -172,3 +172,4 @@ The codes and the pretrained model in this repository are under the BSD 2-Clause
 This code is heavily borrowed from [ToDayGAN](https://github.com/AAnoosheh/ToDayGAN).  
 Spectral Normalization code is borrowed from [BigGAN-PyTorch](https://github.com/ajbrock/BigGAN-PyTorch/blob/master/layers.py).  
 We thank [Lucky0775](https://github.com/Lucky0775) for his questions about the object detection results.
+We thank [yupan233](https://github.com/yupan233) for his questions about the preprocessing step for the KAIST dataset.
