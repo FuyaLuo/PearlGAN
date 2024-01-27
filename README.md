@@ -173,5 +173,4 @@ This code is heavily borrowed from [ToDayGAN](https://github.com/AAnoosheh/ToDay
 Spectral Normalization code is borrowed from [BigGAN-PyTorch](https://github.com/ajbrock/BigGAN-PyTorch/blob/master/layers.py).  
 We thank [Lucky0775](https://github.com/Lucky0775) for his questions about the object detection results.
 
-
 We thank [yupan233](https://github.com/yupan233) for his questions about the preprocessing step for the KAIST dataset.
